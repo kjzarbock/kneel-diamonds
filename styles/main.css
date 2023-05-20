@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #72A0C1;
+  }
+  
+  /* Heading styles */
+  * {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Article styles */
+  .choices {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .choices section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .choices h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  .choices__metals_options,
+  .choices__sizes_options,
+  .choices__styles_options {
+    border: 2px dotted navy;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Order section styles */
+  .order {
+    margin-bottom: 20px;
+  }
+  
+  /* Custom orders section styles */
+  .customOrders h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #saveSubmission {
+    background-color: #002244; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Set the padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Round the edges */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  #saveSubmission:hover {
+    background-color: #B9D9EB; /* Change the background color on hover */
+  }
+  
