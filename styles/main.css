@@ -64,7 +64,7 @@ body {
     padding: 10px 20px; /* Set the padding */
     border: none; /* Remove the border */
     border-radius: 5px; /* Round the edges */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
+    cursor: pointer; 
   }
   
   #saveSubmission:hover {
